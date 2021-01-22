@@ -1,0 +1,366 @@
+header,
+body {
+    font-family: "Oswald", sans-serif;
+    background-image: url(https://i.ibb.co/M76F870/bark-backkground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #f5d45e;
+    color: #f5d45e;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+}
+
+h3,
+h4 {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    text-decoration: underline;
+    text-decoration-color: #f5d45e;
+}
+
+body p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 3.2;
+    font-weight: 300;
+}
+
+.active {
+    color: #f5d45e;
+    text-shadow: 1px 1px black;
+    text-decoration: underline;
+}
+
+header a h3 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+header h4 {
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+    padding-bottom: 25px;
+}
+
+header {
+    padding-bottom: 4.5%;
+}
+
+nav {
+    background-image: linear-gradient(#202020, #3f3f3f);
+    height: 115px;
+    border-bottom: 2.5px solid #f5d45e;
+}
+
+footer {
+    width: 100%;
+    background-image: linear-gradient(#202020, #3f3f3f);
+    border-top: 2.5px solid #f5d45e;
+}
+
+footer .container {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header li:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-align: center;
+    color: #ffffff;
+}
+a .active,
+a:hover {
+    color: #f5d45e;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://i.ibb.co/6Z3gCxT/asg-1.jpg");
+
+    /* Set a specific height */
+    min-height: 600px;
+    width: 100% !important;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0.2, 0.2, 0.2, 0.4);
+}
+
+#Home .container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#Home {
+    text-align: center;
+    font-weight: bold;
+}
+
+#Stump-Services {
+    text-align: center;
+    padding-top: 115px;
+}
+
+#Stump-Services .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#Stump-Services h4 {
+    padding-bottom: 25px;
+}
+
+#About {
+    text-align: center;
+}
+
+#About h4 {
+    padding-bottom: 25px;
+}
+
+#About .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#carousel {
+    overflow: hidden;
+}
+
+#ContactSection h4 {
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+#ContactSection {
+    text-align: center;
+}
+
+#ContactSection .container {
+    display: inline-block;
+    background-image: linear-gradient(#202020, #3f3f3f);
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+button {
+    background-color: #202020 !important;
+    color: #f5d45e !important;
+    border-color: black !important;
+}
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+}
+
+.flex-row {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    font-size: 15px !important;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.center {
+    text-align: center !important;
+}
+
+#Home .card {
+    background-image: linear-gradient(#202020, #3f3f3f);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#Stump-Services .card {
+    background-image: linear-gradient(#202020, #3f3f3f);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#About .card {
+    background-image: linear-gradient(#202020, #3f3f3f);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 16px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    h3 {
+        font-size: 24px !important;
+    }
+
+    h2 {
+        font-size: 34px !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+        padding-left: 0px !important;
+    }
+
+    img {
+        max-height: 300px;
+        width: 100% !important;
+    }
+    footer p {
+        font-size: 10px;
+    }
+
+    nav {
+        height: 150px;
+    }
+
+    header a h3 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0;
+    }
+    header a p {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0;
+    }
+
+    header ul {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0;
+    }
+
+    #About {
+        padding-top: 0px;
+    }
+
+    #About .card {
+        background-image: linear-gradient(#202020, #3f3f3f);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #Stump-Services {
+        padding-top: 50px;
+    }
+
+    #Stump-Services h3 {
+        padding-top: 10px;
+    }
+
+    #Stump-Services .card {
+        background-image: linear-gradient(#202020, #3f3f3f);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #Home {
+        padding-top: 150px;
+    }
+
+    #Home .card {
+        padding-top: 10%;
+    }
+
+    .parallax {
+        /* The image used */
+        background-image: url("https://i.ibb.co/Z88sf2n/asg-1-small.jpg") !important;
+
+        /* Set a specific height */
+        min-height: 400px !important;
+        width: 100% !important;
+        /* Create the parallax scrolling effect */
+        background-repeat: no-repeat !important;
+        background-attachment: scroll;
+        background-position: right;
+        background-size: auto;
+        transform: scale(1);
+    }
+
+    .flex-row {
+        display: flex; /* or inline-flex */
+        flex-direction: column;
+        font-size: 15px !important;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    p {
+        font-size: 16px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    h4 {
+        font-size: 17px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    h2 {
+        font-size: 34px !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+        padding-left: 0px !important;
+    }
+}
+#navbar {
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 999;
+}
